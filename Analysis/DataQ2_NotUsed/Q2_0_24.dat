@@ -1,0 +1,35 @@
+ !*  File produced by S.Schulte
+ !*  Created on 20/08/2017
+ !*2 SLACPEPTPC1987_2, SLACPEPTPC1987
+ 
+
+&Data 
+  Name = "Starting scale only" 
+  Reaction = "NC e+-p"
+  NData =   5
+  NColumn =   4
+  ColumnType = 2*"Bin","Sigma", "Error"
+  ColumnName = "Q2","x","Sigma", "stat",
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.001,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   4043
+  Percent = 3*false
+&End 
+
+
+
+
+&PlotDesc
+   PlotN = 1
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 0.0, 1.0
+   PlotVarColumn = 'x'
+   PlotOptions(1)  = 'Experiment:StartingScaleOnly @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 0.24 @Xlog'
+&End
+
+0.24	0.05	0.0700	0.0100
+0.24	0.15	0.0500	0.0100
+0.24	0.01	0.0835	0.0052
+0.24	0.04	0.0742	0.0081
+0.24	0.12	0.0622	0.0131

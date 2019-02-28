@@ -1,0 +1,39 @@
+!*  File produced by S.Schulte
+!*  Created on 20/08/2017
+!*LEPL32005 1 DESY_PETRA_CELLO1983
+
+&Data 
+  Name = "Starting scale only" 
+  Reaction = "NC e+-p"
+  NData =   11
+  NColumn =   6
+  ColumnType = 2*"Bin","Sigma", 3*"Error"
+  ColumnName = "Q2","x","Sigma", "stat","stat","stat"
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.001,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   4041
+  Percent = 3*false
+&End 
+
+
+
+
+&PlotDesc
+   PlotN = 1
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 11.9, 12.9
+   PlotVarColumn = 'x'
+   PlotOptions(1)  = 'Experiment:StartingScaleOnly @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 12.5 @Xlog'
+&End
+12.5	0.6	0.29	0.06	0	0
+12.4	0.013	0.302	0.013	0.026	0.029
+12.4	0.031	0.245	0.011	0.021	0.01
+12.4	0.05	0.257	0.011	0.023	0.012
+12.4	0.075	0.296	0.012	0.028	0.009
+12.4	0.1	0.315	0.013	0.032	0.007
+12.4	0.14	0.365	0.015	0.038	0.008
+12.4	0.18	0.399	0.017	0.043	0.007
+12.4	0.23	0.441	0.018	0.049	0.011
+12.4	0.29	0.483	0.02	0.054	0.013
+12.4	0.36	0.536	0.023	0.059	0.025

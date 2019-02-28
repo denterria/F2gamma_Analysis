@@ -1,0 +1,37 @@
+!*  File produced by S.Schulte
+!*  Created on 20/08/2017
+!*LEPALEPH2003
+
+&Data 
+  Name = "Starting scale only" 
+  Reaction = "NC e+-p"
+  NData =   8
+  NColumn =   5
+  ColumnType = 2*"Bin","Sigma", 2*"Error"
+  ColumnName = "Q2","x","Sigma", "stat","stat"
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.001,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   4041
+  Percent = 2*false
+&End 
+
+
+
+
+&PlotDesc
+   PlotN = 1
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 16.9, 17.9
+   PlotVarColumn = 'x'
+   PlotOptions(1)  = 'Experiment:StartingScaleOnly @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 17.3 @Xlog'
+&End
+
+17.3	0.00650 	0.43	0.016	0.115
+17.3	0.02240 	0.27	0.014	0.049
+17.3	0.05625 	0.35	0.015	0.041
+17.3	0.11370 	0.35	0.015	0.028
+17.3	0.19580 	0.39	0.016	0.034
+17.3	0.30265 	0.46	0.018	0.041
+17.3	0.43489 	0.40	0.021	0.149
+17.3	0.60369 	0.18	0.019	0.235
