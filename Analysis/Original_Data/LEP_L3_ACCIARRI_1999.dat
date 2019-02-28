@@ -1,0 +1,37 @@
+ !*  File produced by S.Schulte
+ !*  Created on 26/07/2017
+
+&Data 
+  Name = "LEP_L3_ACCIARRI_f2had_1999" 
+  Reaction = "NC e+-p"
+  NData =   11
+  NColumn =   6
+  ColumnType = 2*"Bin","Sigma", 3*"Error"
+  ColumnName = "Q2","x","Sigma", "stat", "stat","stat", 
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.0,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   402
+  Percent = 4*true
+&End 
+&PlotDesc
+   PlotN = 3
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 9.0, 11.0, 14.5 16.0, 22.0,24.0
+   PlotOptions(1)  = 'Experiment:L31999 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 10.8 @Xlog'
+   PlotOptions(2)  = 'Experiment:L31999 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 15.3 @Xlog'
+   PlotOptions(3)  = 'Experiment:L31999 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 23.1 @Xlog'
+
+&End
+
+10.8	0.055	0.30	0.02	0.03	0.00
+10.8	0.150	0.35	0.03	0.02	0.00
+10.8	0.250	0.30	0.04	0.10	0.03
+15.3	0.055	0.37	0.02	0.03	0.00
+15.3	0.150	0.42	0.04	0.01	0.02
+15.3	0.250	0.42	0.05	0.05	0.05
+15.3	0.400	0.35	0.05	0.08	0.13
+23.1	0.055	0.4		0.03	0.03	0.02
+23.1	0.150	0.44	0.04	0.04	0.00
+23.1	0.250	0.47	0.05	0.02	0.01
+23.1	0.400	0.44	0.05	0.11	0.05

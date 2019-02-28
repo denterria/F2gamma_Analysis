@@ -1,0 +1,45 @@
+ !*  File produced by S.Schulte
+ !*  Created on 26/07/2017
+ !* Additional Error due to combination of 
+
+&Data 
+  Name = "LEP_L3_ACCIARRI_f2had_1998" 
+  Reaction = "NC e+-p"
+  NData =   12
+  NColumn =   6
+  ColumnType = 2*"Bin","Sigma", 3*"Error"
+  ColumnName = "Q2","x","Sigma", "stat", "stat","stat",
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.0,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   401
+  Percent = 3*true
+&End 
+
+
+&PlotDesc
+   PlotN = 24
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 1.9, 5.0
+   PlotOptions(1)  = 'Experiment:L31998 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 1.9 @Xlog'
+   PlotOptions(2)  = 'Experiment:L31998 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 5.0 @Xlog'
+&End
+
+1.9		0.0035	0.208	0.010	0.014	0.024
+1.9		0.0075	0.189	0.007	0.009	0.010
+1.9		0.0150	0.184	0.006	0.006	0.008
+1.9		0.0250	0.192	0.008	0.004	0.001
+1.9		0.0400	0.196	0.008	0.007	0.001
+1.9		0.0750	0.196	0.007	0.015	0.010
+5.0		0.0075	0.350	0.024	0.040	0.040
+5.0		0.0150	0.300	0.015	0.029	0.018
+5.0		0.0300	0.270	0.013	0.016	0.007
+5.0		0.0500	0.278	0.013	0.007	0.000
+5.0		0.0800	0.272	0.012	0.008	0.002
+5.0		0.1500	0.270	0.012	0.030	0.016
+
+
+
+
+
+

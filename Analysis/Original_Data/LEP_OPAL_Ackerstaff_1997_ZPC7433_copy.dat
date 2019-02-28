@@ -1,0 +1,44 @@
+ !*  File produced by S.Schulte
+ !*  Created on 26/07/2017
+
+&Data 
+  Name = "LEP_OPAL_Ackerstaff_f2had_1997_1" 
+  Reaction = "NC e+-p"
+  NData =   10
+  NColumn =   5
+  ColumnType = 2*"Bin","Sigma", 2*"Error"
+  ColumnName = "Q2","x","Sigma", "stat","stat",
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.001,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   405
+  Percent = 2*true
+&End 
+
+
+&PlotDesc
+   PlotN = 3
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 7.5, 14.7, 135.0
+   PlotVarColumn = 'x'
+   PlotOptions(1)  = 'Experiment:OPAL1997 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 7.5 @Xlog'
+   PlotOptions(2)  = 'Experiment:OPAL1997 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 14.7 @Xlog'
+   PlotOptions(3)  = 'Experiment:OPAL1997 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 135.0 @Xlog'
+
+  
+  
+&End
+*        Q2           x     F2    stat1 	  sys1    sys2  
+7.5		0.046	0.28	0.02	0.07
+7.5		0.187	0.32	0.02	0.10
+7.5		0.649	0.38	0.04	0.14
+14.7	0.0715 	0.38	0.01	0.10
+14.7	0.2305	0.41	0.02	0.04
+14.7	0.423	0.41	0.03	0.10
+14.7	0.679	0.54	0.05	0.22
+135.0	0.20	0.65	0.09	0.20
+135.0	0.45	0.73	0.08	0.06
+135.0	0.70	0.72	0.10	0.45
+
+
+

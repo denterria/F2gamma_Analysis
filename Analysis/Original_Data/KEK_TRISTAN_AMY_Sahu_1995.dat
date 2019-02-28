@@ -1,0 +1,35 @@
+ !*  File produced by S.Schulte
+ !*  Created on 26/07/2017
+
+&Data 
+  Name = "KEK_TRISTAN_AMY_Sahu_1995" 
+  Reaction = "NC e+-p"
+  NData =   5
+  NColumn =   5
+  ColumnType = 2*"Bin","Sigma", 2*"Error"
+  ColumnName = "Q2","x","Sigma", "stat","stat"
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.0,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   418
+  Percent = 2*true
+&End 
+
+
+&PlotDesc
+   PlotN = 34
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 73.0, 390.0
+   PlotVarColumn = 'x'
+   PlotOptions(1)  = 'Experiment:TRISTAN_AMY1995:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 73.0 @Xlog'
+   PlotOptions(2)  = 'Experiment:TRISTAN_AMY1995:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 390.0 @Xlog'
+&End
+*        Q2           x     F2    stat   sys1    sys2 
+73.0	0.25	0.65	0.08	0.06
+73.0	0.50	0.60	0.16	0.03
+73.0	0.75	0.65	0.11	0.08
+390.0	0.31	0.94	0.23	0.10
+390.0	0.69	0.82	0.16	0.11
+
+
+

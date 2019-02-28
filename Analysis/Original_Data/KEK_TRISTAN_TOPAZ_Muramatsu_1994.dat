@@ -1,0 +1,38 @@
+ !*  File produced by S.Schulte
+ !*  Created on 26/07/2017
+
+&Data 
+  Name = "KEK_TRISTAN_TOPAZ_Muramatsu_1994" 
+  Reaction = "NC e+-p"
+  NData =   8
+  NColumn =   5
+  ColumnType = 2*"Bin","Sigma", 2*"Error"
+  ColumnName = "Q2","x","Sigma", "stat","stat"
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.0,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   416
+  Percent = 2*true
+&End 
+
+
+&PlotDesc
+   PlotN = 3
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 3.0, 10.0, 30.0, 45.0, 130.0, 340
+   PlotVarColumn = 'x'
+   PlotOptions(1)  = 'Experiment:Tristan_TOPAZ:#gamma#gamma #rightarrow X  @XTitle: x @YTitle: #sigma_{red}  @Title:Q^{2} = 5.1 @Xlog'
+   PlotOptions(2)  = 'Experiment:Tristan_TOPAZ:#gamma#gamma #rightarrow X  @XTitle: x @YTitle: #sigma_{red}  @Title:Q^{2} = 16.0 @Xlog'
+   PlotOptions(3)  = 'Experiment:Tristan_TOPAZ:#gamma#gamma #rightarrow X  @XTitle: x @YTitle: #sigma_{red}  @Title:Q^{2} = 80.0 @Xlog'
+   PlotOptions(3)  = 'Experiment:Tristan_TOPAZ:#gamma#gamma #rightarrow X  @XTitle: x @YTitle: #sigma_{red}  @Title:Q^{2} = 338.0 @Xlog'
+&End
+*        Q2           x     F2    stat   sys1    sys2 
+5.1		0.043	0.33	0.02	0.05
+5.1		0.138	0.29	0.03	0.03
+16.0	0.085	0.60	0.08	0.06
+16.0	0.240	0.56	0.09	0.04
+16.0	0.555	0.46	0.15	0.06
+80.0	0.190	0.68	0.26	0.05
+80.0	0.455	0.83	0.22	0.05
+80.0	0.785	0.53	0.21	0.05
+

@@ -1,0 +1,39 @@
+ !*  File produced by S.Schulte
+ !*  Created on 26/07/2017
+
+&Data 
+  Name = "LEP_L3_ACCIARRI_f2had_2000" 
+  Reaction = "NC e+-p"
+  NData =   9
+  NColumn =   6
+  ColumnType = 2*"Bin","Sigma", 3*"Error"
+  ColumnName = "Q2","x","Sigma", "stat","stat","stat"
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.0,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   403
+  Percent = 3*true
+&End 
+
+
+&PlotDesc
+   PlotN = 5
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 60.0, 90.0, 120.0, 125.0, 225.0
+   PlotOptions(1)  = 'Experiment:L32000 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 60.0 @Xlog'
+   PlotOptions(2)  = 'Experiment:L32000 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 90.0 @Xlog'
+   PlotOptions(3)  = 'Experiment:L32000 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 120.0 @Xlog'
+   PlotOptions(4)  = 'Experiment:L32000 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 125.0 @Xlog'
+   PlotOptions(5)  = 'Experiment:L32000 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma}  @Title:Q^{2} = 225.0 @Xlog'
+
+&End
+60.00	0.55	0.66	0.09	0.06
+90.00	0.55	0.79	0.14	0.08
+120.0	0.13	0.66	0.08	0.06
+120.0	0.30	0.81	0.08	0.08
+120.0	0.50	0.76	0.12	0.07
+120.0	0.70	0.85	0.14	0.08
+120.0	0.89	0.91	0.19	0.09
+125.0	0.55	0.88	0.12	0.08
+225.0	0.55	1.18	0.22	0.11 
+

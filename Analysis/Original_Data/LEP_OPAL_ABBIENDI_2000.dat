@@ -1,0 +1,55 @@
+ !*  File produced by S.Schulte
+ !*  Created on 26/07/2017
+
+&Data 
+  Name = "LEP_OPAL_ABBIENDI_f2had_2000" 
+  Reaction = "NC e+-p"
+  NData =   22
+  NColumn =   5
+  ColumnType = 2*"Bin","Sigma", 2*"Error"
+  ColumnName = "Q2","x","Sigma", "stat","stat",
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     91.0,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   406
+  Percent = 2*true
+&End 
+
+
+&PlotDesc
+   PlotN = 6
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 1.9, 3.7, 8.9, 10.7, 17.5, 17.8, 
+   PlotVarColumn = 'x'
+   PlotOptions(1)  = 'Experiment:OPAL2000 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 1.9 @Xlog'
+   PlotOptions(2)  = 'Experiment:OPAL2000 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 3.7 @Xlog'
+   PlotOptions(3)  = 'Experiment:OPAL2000 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 8.9 @Xlog'
+   PlotOptions(4)  = 'Experiment:OPAL2000 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 10.7 @Xlog'
+   PlotOptions(5)  = 'Experiment:OPAL2000 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 17.5 @Xlog'
+   PlotOptions(6)  = 'Experiment:OPAL2000 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 17.8 @Xlog'
+
+ 
+&End
+*        Q2           x     F2    stat   sys1    sys2 
+1.90	0.0012	0.269	0.027	0.026
+1.90	0.0063	0.177	0.009	0.016
+1.90	0.0322	0.179	0.007	0.007
+1.90	0.1124	0.227	0.010	0.012
+3.70	0.0032	0.269	0.033	0.040
+3.70	0.0143	0.232	0.013	0.022
+3.70	0.0639	0.259	0.010	0.010
+3.70	0.1986	0.296	0.014	0.025
+8.90	0.0235	0.221	0.017	0.028
+8.90	0.1054	0.308	0.014	0.012
+8.90	0.3331	0.379	0.022	0.016
+10.7	0.0021	0.362	0.045	0.048
+10.7	0.0117	0.263	0.015	0.031
+10.7	0.0639	0.275	0.011	0.030
+10.7	0.3143	0.351	0.012	0.020
+17.5	0.0439	0.273	0.028	0.036
+17.5	0.1534	0.375	0.023	0.016
+17.5	0.3945	0.501	0.027	0.024
+17.8	0.0033	0.428	0.061	0.062
+17.8	0.0166	0.295	0.019	0.026
+17.8	0.0821	0.336	0.013	0.042
+17.8	0.3483	0.430	0.013	0.028

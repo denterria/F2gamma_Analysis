@@ -1,0 +1,35 @@
+!*  File produced by S.Schulte
+!*  Created on 26/07/2017
+
+&Data 
+  Name = "DESY_PETRA_CELLO_Behrend_1983" 
+  Reaction = "NC e+-p"
+  NData =   5
+  NColumn =   4
+  ColumnType = 2*"Bin","Sigma", 1*"Error"
+  ColumnName = "Q2","x","Sigma", "stat"
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.0,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   424
+  Percent = 1*true
+&End 
+
+
+&PlotDesc
+   PlotN = 5
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 3.0, 5.0, 7.0, 10.0, 15.0, 25.0
+   PlotVarColumn = 'x'
+   PlotOptions(1)  = 'Experiment:PETRA_CELLO1983:#gamma#gamma #rightarrow X  @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 4.0 @Xlog'
+   PlotOptions(2)  = 'Experiment:PETRA_CELLO1983:#gamma#gamma #rightarrow X  @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 6.0 @Xlog'
+   PlotOptions(3)  = 'Experiment:PETRA_CELLO1983:#gamma#gamma #rightarrow X  @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 8.5 @Xlog'
+   PlotOptions(4)  = 'Experiment:PETRA_CELLO1983:#gamma#gamma #rightarrow X  @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 12.5.0 @Xlog'
+   PlotOptions(5)  = 'Experiment:PETRA_CELLO1983:#gamma#gamma #rightarrow X  @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 20.0 @Xlog'
+&End
+*        Q2           x     F2    stat		
+4.0		0.6		0.26	0.04
+6.0		0.6		0.29	0.05
+8.5		0.6		0.21	0.05
+12.5	0.6		0.29	0.06
+20.0	0.6		0.36	0.08

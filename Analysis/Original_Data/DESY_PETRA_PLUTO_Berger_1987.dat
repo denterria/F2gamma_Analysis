@@ -1,0 +1,32 @@
+ !*  File produced by S.Schulte
+ !*  Created on 26/07/2017
+
+&Data 
+  Name = "DESY_PETRA_PLUTO_Berger_1987" 
+  Reaction = "NC e+-p"
+  NData =   4
+  NColumn =   4
+  ColumnType = 2*"Bin","Sigma", 1*"Error"
+  ColumnName = "Q2","x","Sigma", "stat"
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.0,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   421
+  Percent = 1*true
+&End 
+
+
+&PlotDesc
+   PlotN = 1
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 45.0
+   PlotVarColumn = 'x'
+   PlotOptions(1)  = 'Experiment:PETRA_PLUTO@ExtraLabel:#gamma#gamma #rightarrow X@XTitle: x @YTitle:  F_{2}^{#gamma}  @Title:Q^{2} = 45.0 @Xlog'
+&End
+*        Q2           x     F2   		
+45.0	0.175	0.48	0.17
+45.0	0.375	0.55	0.12
+45.0	0.625	0.89	0.16
+45.0	0.825	0.87	0.26
+
+

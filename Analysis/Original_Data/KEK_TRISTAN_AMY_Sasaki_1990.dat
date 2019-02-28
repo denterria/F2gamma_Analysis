@@ -1,0 +1,31 @@
+l !*  File produced by S.Schulte
+ !*  Created on 26/07/2017
+
+&Data 
+  Name = "KEK_TRISTAN_AMY_Sasaki_1990" 
+  Reaction = "NC e+-p"
+  NData =   3
+  NColumn =   5
+  ColumnType = 2*"Bin","Sigma", 2*"Error"
+  ColumnName = "Q2","x","Sigma", "stat","stat"
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.0,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   417
+  Percent = 2*true
+&End 
+
+
+&PlotDesc
+   PlotN = 1
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 73.0
+   PlotVarColumn = 'x'
+   PlotOptions(1)  = 'Experiment:TRISTAN_AMY1990:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 73.0 @Xlog'
+&End
+*        Q2           x     F2    stat1 	stat2   sys1    sys2 
+73.0	0.25	0.68	0.15	0.09	
+73.0	0.50	0.86	0.30	0.06	
+73.0	0.75	0.86	0.28	0.10
+
+

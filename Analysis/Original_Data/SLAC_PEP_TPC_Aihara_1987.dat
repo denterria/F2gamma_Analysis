@@ -1,0 +1,62 @@
+ !*  File produced by S.Schulte
+ !*  Created on 26/07/2017
+
+&Data 
+  Name = "SLAC_PEP_TPC_Aihara_1987" 
+  Reaction = "NC e+-p"
+  NData =   22
+  NColumn =   4
+  ColumnType = 2*"Bin","Sigma", 1*"Error"
+  ColumnName = "Q2","x","Sigma", "stat"
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.0,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   105
+  Percent = 1*true
+&End 
+
+
+&PlotDesc
+   PlotN = 6
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 0.2, 0.3, 0.5, 1.0, 1.6, 1.8, 4.0, 6.6
+   PlotVarColumn = 'x'
+   PlotOptions(1)  = 'Experiment:SLAC_PEP_TPC_Aihara1987_1@ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle:  F_{2}^{#gamma}  @Title:Q^{2} = 0.24 @Xlog'
+   PlotOptions(2)  = 'Experiment:SLAC_PEP_TPC_Aihara1987_1@ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle:  F_{2}^{#gamma}  @Title:Q^{2} = 0.38 @Xlog'
+   PlotOptions(3)  = 'Experiment:SLAC_PEP_TPC_Aihara1987_1@ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle:  F_{2}^{#gamma}  @Title:Q^{2} = 0.71 @Xlog'
+   PlotOptions(4)  = 'Experiment:SLAC_PEP_TPC_Aihara1987_1@ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle:  F_{2}^{#gamma}  @Title:Q^{2} = 1.3 @Xlog'
+   PlotOptions(5)  = 'Experiment:SLAC_PEP_TPC_Aihara1987_1@ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle:  F_{2}^{#gamma}  @Title:Q^{2} = 2.8 @Xlog'
+   PlotOptions(6)  = 'Experiment:SLAC_PEP_TPC_Aihara1987_1@ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle:  F_{2}^{#gamma}  @Title:Q^{2} = 5.1 @Xlog'
+
+&End
+*        Q2           x     F2   		
+0.24	0.010	0.0835	0.0052
+0.24	0.040	0.0742	0.0081
+0.24	0.120	0.0622	0.0131	
+0.38	0.010	0.1133	0.0069
+0.38	0.037	0.1180	0.0113
+0.38	0.082	0.1714	0.0205
+0.38	0.178	0.1508	0.0284
+0.71	0.014	0.1167	0.0060
+0.71	0.047	0.1304	0.0100
+0.71	0.093	0.1703	0.0169
+0.71	0.235	0.1328	0.0131
+1.30	0.025	0.1065	0.0126
+1.30	0.088	0.1840	0.0207
+1.30	0.170	0.2149	0.0337
+1.30	0.361	0.1024	0.0313
+2.80	0.040	0.1337	0.0177
+2.80	0.118	0.2339	0.0305
+2.80	0.227	0.1982	0.0419
+2.80	0.450	0.1603	0.0331	
+5.10	0.110	0.2240	0.0339
+5.10	0.274	0.3727	0.0567
+5.10	0.550	0.3002	0.0438
+
+
+
+
+
+	
+
+

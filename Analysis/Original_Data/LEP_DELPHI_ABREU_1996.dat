@@ -1,0 +1,33 @@
+ !*  File produced by S.Schulte
+ !*  Created on 26/07/2017
+
+&Data 
+  Name = "LEP_Delphi_Abreu_f2had_1996" 
+  Reaction = "NC e+-p"
+  NData =   4
+  NColumn =   5
+  ColumnType = 2*"Bin","Sigma", 2*"Error"
+  ColumnName = "Q2","x","Sigma", "stat","stat"
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.001,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   420
+  Percent = 2*true
+&End 
+
+
+
+
+&PlotDesc
+   PlotN = 1
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 4.0, 30.0
+   PlotVarColumn = 'x'
+   PlotOptions(1)  = 'Experiment:Delphi1996 @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 12.0 @Xlog'
+&End
+*        Q2           x     F2    stat   sys1 
+12.0	0.0405		0.21	0.03	0.06	
+12.0	0.1465		0.41	0.04	0.05	
+12.0	0.3205		0.45	0.05	0.05	
+12.0	0.6375		0.45	0.11	0.10	
+
