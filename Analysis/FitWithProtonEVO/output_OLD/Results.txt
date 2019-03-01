@@ -1,0 +1,57 @@
+ First iteration    7509.2447313922357              247   30.401800531952372     
+After minimisation     395.16   247     1.600
+
+  Partial chi2s 
+Dataset    1      7.17( +0.00)    14  Starting scale only                             
+Dataset    2      7.68( +0.00)     3  Starting scale only                             
+Dataset    3     39.65( +0.00)     8  Starting scale only                             
+Dataset    4     15.43( +0.00)     8  Starting scale only                             
+Dataset    5      1.45( +0.00)     1  Starting scale only                             
+Dataset    6      3.62( +0.00)     3  Starting scale only                             
+Dataset    7     38.68( +0.00)    11  Starting scale only                             
+Dataset    8     16.76( +0.00)    10  Starting scale only                             
+Dataset    9      2.79( +0.00)     4  Starting scale only                             
+Dataset   10      3.32( +0.00)     3  Starting scale only                             
+Dataset   11      0.26( +0.00)     3  Starting scale only                             
+Dataset   12     14.49( +0.00)     1  Starting scale only                             
+Dataset   13      4.71( +0.00)     6  Starting scale only                             
+Dataset   14      3.84( +0.00)     3  Starting scale only                             
+Dataset   15      3.10( +0.00)     4  Starting scale only                             
+Dataset   16      6.90( +0.00)     7  Starting scale only                             
+Dataset   17      1.28( +0.00)     3  Starting scale only                             
+Dataset   18      2.72( +0.00)     6  Starting scale only                             
+Dataset   19     15.60( +0.00)    11  Starting scale only                             
+Dataset   20      4.02( +0.00)    11  Starting scale only                             
+Dataset   21      5.14( +0.00)     4  Starting scale only                             
+Dataset   22     39.55( +0.00)    14  Starting scale only                             
+Dataset   23     21.58( +0.00)    15  Starting scale only                             
+Dataset   24      8.29( +0.00)     3  Starting scale only                             
+Dataset   25      3.06( +0.00)     4  Starting scale only                             
+Dataset   26     13.06( +0.00)     9  Starting scale only                             
+Dataset   27     43.61( +0.00)    16  Starting scale only                             
+Dataset   28      1.41( +0.00)     4  Starting scale only                             
+Dataset   29      2.22( +0.00)     3  Starting scale only                             
+Dataset   30      2.17( +0.00)     4  Starting scale only                             
+Dataset   31      5.38( +0.00)     4  Starting scale only                             
+Dataset   32      4.41( +0.00)     7  Starting scale only                             
+Dataset   33      2.47( +0.00)     3  Starting scale only                             
+Dataset   34      8.05( +0.00)     8  Starting scale only                             
+Dataset   35      2.54( +0.00)     6  Starting scale only                             
+Dataset   36      1.60( +0.00)     3  Starting scale only                             
+Dataset   37      1.03( +0.00)     3  Starting scale only                             
+Dataset   38      0.87( +0.00)     1  Starting scale only                             
+Dataset   39      0.88( +0.00)     3  Starting scale only                             
+Dataset   40     12.07( +0.00)     5  Starting scale only                             
+Dataset   41      2.42( +0.00)     1  Starting scale only                             
+Dataset   42      0.19( +0.00)     3  Starting scale only                             
+Dataset   43      4.13( +0.00)     1  Starting scale only                             
+Dataset   44      3.52( +0.00)     3  Starting scale only                             
+Dataset   45      0.01( +0.00)     1  Starting scale only                             
+Dataset   46      2.92( +0.00)     2  Starting scale only                             
+Dataset   47      9.09( +0.00)     5  Starting scale only                             
+
+ Correlated Chi2    0.0000000000000000     
+ Log penalty Chi2    2.9976021664879227E-015
+ Systematic shifts            0
+  
+                                Name          Shift   +/-    Error          Type

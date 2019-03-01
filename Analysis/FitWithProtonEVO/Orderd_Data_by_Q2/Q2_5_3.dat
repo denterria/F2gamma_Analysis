@@ -1,0 +1,38 @@
+ !*  File produced by S.Schulte
+ !*  Created on 20/08/2017
+ !* DESY_PLUTO1984 SLACPEPTPC1987_2
+
+&Data
+  Name = "Starting scale only"
+  Reaction = "NC e+-p"
+  NData =   10
+  NColumn =   4
+  ColumnType = 2*"Bin","Sigma", "Error"
+  ColumnName = "Q2","x","Sigma", "stat",
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.001,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   4048
+  Percent = 1*false
+&End
+
+
+
+
+&PlotDesc
+   PlotN = 1
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 4.9, 5.5
+   PlotVarColumn = 'x'
+   PlotOptions(1)  = 'Experiment:StartingScaleOnly @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 5.2/5.3 @Xlog'
+&End
+5.2		0.0500	0.130	0.050
+5.2		0.1500	0.300	0.040
+5.2		0.2500	0.370	0.060
+5.2		0.4000	0.300	0.060
+5.3		0.0535	0.245	0.015
+5.3		0.1230	0.307	0.010
+5.3		0.2465	0.277	0.025
+5.3		0.4045	0.329	0.037
+5.3		0.5700	0.439	0.052
+5.3		0.7450	0.361	0.076

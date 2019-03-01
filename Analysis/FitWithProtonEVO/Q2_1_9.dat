@@ -1,0 +1,42 @@
+ !*  File produced by S.Schulte
+ !*  Created on 25/5/2018
+ !* 12 LEP  L3 1998, 4 LEPOPAL2000,  4 LEPOPAL1997PL4112B225 (1.86 to 1.9 GeV2)
+
+&Data
+  Name = "Starting scale only"
+  Reaction = "NC e+-p"
+  NData =   14
+  NColumn =   6
+  ColumnType = 2*"Bin","Sigma", 3*"Error"
+  ColumnName = "Q2","x","Sigma", "stat","stat","stat"
+  NInfo =  4
+  CInfo = "sqrt(S)", "e charge", "reduced", "e polarity"
+  DataInfo =     0.001,    0.1000E+01,    0.1000E+01,    0.0000E+00,
+  IndexDataset =   4051
+  Percent = 3*false
+&End
+
+
+
+
+&PlotDesc
+   PlotN = 1
+   PlotDefColumn = 'Q2'
+   PlotDefValue = 1.1, 2.5
+   PlotVarColumn = 'x'
+   PlotOptions(1)  = 'Experiment:StartingScaleOnly @ExtraLabel:#gamma#gamma #rightarrow X @XTitle: x @YTitle: F_{2}^{#gamma} @Title:Q^{2} = 1.9 @Xlog'
+&End
+1.90	0.0035	0.208	0.010	0.014	0.024
+1.90	0.0075	0.189	0.007	0.009	0.010
+1.90	0.0150	0.184	0.006	0.006	0.008
+1.90	0.0250	0.192	0.008	0.004	0.001
+1.90	0.0400	0.196	0.008	0.007	0.001
+1.90	0.0750	0.196	0.007	0.015	0.010
+1.90	0.0012	0.269	0.027	0.026	0
+1.90	0.0063	0.177	0.009	0.016	0
+1.90	0.0322	0.179	0.007	0.007	0
+1.90	0.1124	0.227	0.010	0.012	0
+1.86	0.0040	0.270	0.030	0.060	0
+1.86	0.0110	0.220	0.020	0.040	0
+1.86	0.0280	0.200	0.020	0.060	0
+1.86	0.0630	0.230	0.020	0.040	0
